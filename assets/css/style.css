@@ -542,6 +542,7 @@ li {
 }
 
 .navbar {
+    padding-top: 20px !important;
     display: flex;
     /* flex-direction: row-reverse; */
     align-items: center;
