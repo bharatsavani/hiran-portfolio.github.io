@@ -18,6 +18,7 @@ body {
     font-size: 22px !important;
     right: 0px !important;
     margin-left: 0px !important;
+    padding-right: 50px;
 
 }
 
@@ -241,10 +242,14 @@ li {
 
     .container-fluid {
         margin-right: 0px !important;
+        padding-right: 25px;
     }
 }
 
 @media only screen and (min-width:560px) and (max-width: 780px) {
+    .container-fluid{
+        padding-right: 40px;
+    }
     .navbar {
         display: flex;
         /* flex-direction: row-reverse; */
