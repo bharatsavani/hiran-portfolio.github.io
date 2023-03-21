@@ -26,7 +26,6 @@ img {
     margin-right: 15px;
 }
 
-
 input[type=text] {
     border: 1px solid #C6C6C6;
     padding: 10px;
@@ -133,7 +132,6 @@ h2 {
 
 .doublelist {
     margin-top: 5px !important;
-    margin-left: 24px !important;
     padding: 15px;
 
 }
@@ -480,7 +478,7 @@ li {
     }
 
     .listin {
-        margin-left: 60px;
+        margin-left: 88px;
         font-family: 'Inter';
         font-size: 18px;
 
