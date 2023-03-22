@@ -10,7 +10,9 @@ body {
     font-family: 'Inter';
     margin: 0 !important;
 }
-
+b{
+    color: #2BD364;
+}
 
 img {
     margin-right: 15px;
@@ -281,12 +283,13 @@ li {
         line-height: 22px;
         color: #5D5D66;
     }
+    
 
 
 
 }
 
-@media only screen and (min-width:744px){
+@media only screen and (min-width:744px) and (max-width: 1199px){
     .container {
         width: 744px;
     }
@@ -400,8 +403,8 @@ li {
     .listin1 {
         font-family: 'Inter';
         font-size: 18px;
-        padding-left: 156px;
-        padding-right: 155px;
+        padding-left: 80px;
+        padding-right: 80px;
 
 
     }
