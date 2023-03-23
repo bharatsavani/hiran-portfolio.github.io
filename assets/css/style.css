@@ -266,7 +266,7 @@ li {
     }
 }
 
-@media only screen and (min-width:744px) and (max-width: 1199px) {
+@media only screen and (min-width:744px) and (max-width: 1500px) {
     .container {
         width: 744px;
     }
@@ -353,6 +353,7 @@ li {
     .listin3 .grid-container {
         display: grid;
         grid-template-columns: 50% 50%;
+        padding: 0 80px !important;
     }
 
     .searchnote {
@@ -434,7 +435,7 @@ li {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
 
     .searchnote {
         width: 885px;
@@ -454,7 +455,6 @@ li {
 
     .container {
         width: 1512px;
-
     }
 
     .font1 {
@@ -791,5 +791,50 @@ li {
         align-items: center;
         justify-content: center;
 
+    }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width: 1499px) {
+    .container{ 
+        width: 950px;
+        margin:0px auto !important;
+    }
+
+    .vl {
+        height: unset;
+    }
+
+    .searchnote,
+    .listin2 {
+        width: unset;
+    }
+
+    .doublelist,
+    .fulllist,
+    .listin1,
+    .listin2
+    {
+        padding-left: 156px;
+        padding-right: 150px;
+    }
+
+    input[type=text] {
+        width: 97%;
+    }
+
+    .font4 {
+        padding: 0 !important;
+    }
+    
+    .listin3 .grid-container
+    {
+        padding: 0 156px !important;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 424px) {
+    .vl {
+        height: 100%;
     }
 }
